@@ -1,0 +1,25 @@
+{
+  "name": "noflo-logic",
+  "description": "Boolean logic gate components for NoFlo",
+  "author": "William Stagner",
+  "version": "0.0.1",
+  "dependencies": {
+    "noflo/noflo": "*"
+  },
+  "scripts": [
+    "components/AndGate.coffee",
+    "components/OrGate.coffee",
+    "components/NandGate.coffee",
+    "components/NorGate.coffee",
+    "components/XorGate.coffee"
+  ],
+  "json": [
+    "component.json"
+  ],
+  "noflo": {
+    "icon": "file",
+    "components": {
+      "AndGate": "components/AndGate.coffee"
+    }
+  }
+}
