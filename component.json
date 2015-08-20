@@ -14,6 +14,7 @@
     "components/NorGate.coffee",
     "components/OrGate.coffee",
     "components/XorGate.coffee",
+    "lib/Gate.coffee",
     "index.js"
   ],
   "json": [
